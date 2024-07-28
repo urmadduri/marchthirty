@@ -3,4 +3,6 @@ name: Really cool reactor
 jobs:
   build-job:
     name: Build .NET project
-    
+    steps:
+      -run: dotnet --version
+       name: check .NET version 
