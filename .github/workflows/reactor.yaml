@@ -5,5 +5,5 @@ jobs:
     name: Build .NET project
     runs-on: ubuntu-latest
     steps:
-      -run: dotnet --version
-       name: check .NET version 
+      - run: dotnet --version
+        name: check .NET version 
